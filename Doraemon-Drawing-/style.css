@@ -1,0 +1,264 @@
+body{
+    height:100vh;  
+    background-color:skyblue;
+    overflow:hidden;
+}
+.cloud1{
+    top:50%;
+    width:300px;
+    height:90px;
+    background-color: #fff;
+    position:absolute;
+    border-radius:45px ;
+    animation:moves 15s infinite linear ;
+
+}
+.cloud1::before{
+    content:'';
+    position:absolute;
+    top:-80%;
+    left:8%;
+    width:30%;
+    height:100%;
+    background:#fff;
+    border-radius: 48%;
+    
+}
+.cloud1::after{
+    content:'';
+    position:absolute;
+    top:-80%;
+    left:35%;
+    width:50%;
+    height:120%;
+    background:#fff;
+    border-radius: 50%;
+    
+}
+@keyframes moves{
+   0%{
+    left:-20rem;
+    /* transform:translateX(-100%); */
+   }
+   50%{
+    left: 50rem;
+   } 
+
+   100%{
+    left: 100rem
+    /* transform:translateX(0%); */
+   }
+    
+}
+.cloud2{
+    top:15%;
+    width:130px;
+    height:50px;
+    background-color: #fff;
+    position:absolute;
+    border-radius:47px ;
+    animation:moving 16s infinite linear;
+}
+.cloud2::before{
+    content:'';
+    position:absolute;
+    top:-60%;
+    left:8%;
+    width:35%;
+    height:70%;
+    background:#fff;
+    border-radius: 48%;
+}
+.cloud2::after{
+    content:'';
+    position:absolute;
+    top:-60%;
+    left:30%;
+    width:50%;
+    height:90%;
+    background:#fff;
+    border-radius: 50%;
+}
+@keyframes moving{
+    from{left:-10rem;
+    }
+    50%{left:50rem;
+    }
+    to{left:100rem;
+    }
+}
+  
+body{
+    position:absolute;
+       
+}
+.mouthout{
+    height:400px;
+    width:400px;
+    background-color:rgb(0, 153, 255);
+    border-radius: 50%;
+    right:-76%;
+    top:18%;
+    /* position:absolute; */
+    border:2px solid black;
+    position:absolute;
+}
+.mouthin{
+height:350px;
+width:355px;
+background-color: #fff;
+position:relative;
+border-radius:50%;
+right:-247px;
+top:171px;
+border:1px solid black;
+}
+.eyeleft{
+    background-color:#fff;
+    height:150px;
+    width:100px;
+    border-radius: 50%;
+    right:-320px;
+    top:-200px;
+    position:relative;
+    border:1px solid black;
+}
+.righteye{ background-color:#fff;
+    height:150px;
+    width:100px;
+    border-radius: 50%;
+    right:-422px;
+    top:-353px;
+    position:relative;
+    border:1px solid black;
+}
+.leftblack{
+    position:relative;
+    height:30px;
+    width:20px;
+    background-color:black;
+    border-radius:50%;
+    right:-367px;
+    top:-390px;
+    border:2px solid black;
+}
+.rightblack{ position:relative;
+    height:30px;
+    width:20px;
+    background-color:black;
+    border-radius:50%;
+    right:-454px;
+    top:-424px;
+    border:2px solid black;
+}
+.leftwhite{
+    position:relative;
+    height:15px;
+    width:10px;
+    background-color:#fff;
+    border-radius:50%;
+    right:-374px;
+    top:-446px;
+}
+.rightwhite{
+    position:relative;
+    height:15px;
+    width:10px;
+    background-color:#fff;
+    border-radius:50%;
+    right:-461px;
+    top:-460px;
+}
+.nose{
+    height:80px;
+    width:80px;
+    position:relative;
+    background-color:red;
+    border-radius: 50%;
+    top:-470px;
+    right:-383px;
+    border:1px solid black;
+}
+.whitenose{
+    position:relative;
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color:#fff;
+    top:-505px;
+    right:-400px;
+    border:1px solid black;
+}
+.smile{
+    background-color:black;
+    position:relative;
+    height:150px;
+    width:200px;
+    top:-550px;
+    border-radius:0px 0px 100px 100px;
+    border:3px solid black;
+    background-color:transparent;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    right:-325px;
+}
+.noseline{
+    background-color:black;
+    position:relative;
+    height:91px;
+    width:0px;
+    top:-646px;
+    border: 1px solid black;
+    right:-423px;
+}
+.noseline1{
+    background-color:black;
+    height:0px;
+    width:150px;
+    position:relative;
+    bottom:809px;
+    border:1px solid black;
+    transform:rotate(15deg);
+    right:-190px;
+    background-color:transparent;
+    
+
+}
+.noseline2{
+    background-color:black;
+    height:0px;
+    width:150px;
+    position:relative;
+    bottom:809px;
+    border:1px solid black;
+    transform:rotate(-15deg);
+    right:-505px;
+    background-color:transparent;
+    
+
+
+}
+.noseline3{
+
+    background-color:black;
+    height:0px;
+    width:150px;
+    position:relative;
+    bottom:750px;
+    border:1px solid black;
+    right:-505px;
+    background-color:transparent;
+    
+}
+.noseline4{
+    background-color:black;
+    height:0px;
+    width:150px;
+    position:relative;
+    bottom:750px;
+    border:1px solid black;
+    right:-195px;
+    background-color:transparent;
+}
+
